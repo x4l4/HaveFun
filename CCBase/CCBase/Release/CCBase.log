@@ -1,0 +1,29 @@
+﻿Compilazione avviata 24/06/2012 11.21.29.
+Progetto "C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\CCBase\CCBase.vcxproj" sul nodo 2 (destinazioni: build).
+InitializeBuildStatus:
+  Aggiornamento timestamp di "Release\CCBase.unsuccessfulbuild".
+ClCompile:
+  C:\Programmi\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CCBASE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CCBase.cpp
+  CCBase.cpp
+CCBase.cpp(96): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+CCBase.cpp(97): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+CCBase.cpp(113): warning C4244: '=': conversione da 'float' a 'int'. Possibile perdita di dati.
+CCBase.cpp(160): warning C4244: '=': conversione da 'double' a 'FLOAT'. Possibile perdita di dati.
+CCBase.cpp(161): warning C4244: '=': conversione da 'double' a 'FLOAT'. Possibile perdita di dati.
+Link:
+  C:\Programmi\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\CCBase.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\CCBase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\CCBase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\CCBase.lib" /MACHINE:X86 /DLL Release\CCBase.obj
+  Generazione codice in corso...
+  Generazione codice terminata
+detours.lib(detours.obj) : warning LNK4099: impossibile trovare il PDB 'detours.pdb' con 'detours.lib(detours.obj)' o in 'C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\detours.pdb'; oggetto collegato senza informazioni di debug
+detours.lib(disasm.obj) : warning LNK4099: impossibile trovare il PDB 'detours.pdb' con 'detours.lib(disasm.obj)' o in 'C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\detours.pdb'; oggetto collegato senza informazioni di debug
+  CCBase.vcxproj -> C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\CCBase.dll
+Manifest:
+  C:\Programmi\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\Release\CCBase.dll;#2" /manifest Release\CCBase.dll.intermediate.manifest
+FinalizeBuildStatus:
+  Eliminazione del file "Release\CCBase.unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Release\CCBase.lastbuildstate".
+Compilazione progetto "C:\Documents and Settings\b-rabbit\documenti\visual studio 2010\Projects\CCBase\CCBase\CCBase.vcxproj" (destinazioni: build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:13.31
